@@ -13,6 +13,7 @@
 		196ED6971E02789B0051DAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196ED6951E02789B0051DAD6 /* Main.storyboard */; };
 		196ED6991E02789B0051DAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196ED6981E02789B0051DAD6 /* Assets.xcassets */; };
 		196ED69C1E02789B0051DAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196ED69A1E02789B0051DAD6 /* LaunchScreen.storyboard */; };
+		196ED6A61E0278EC0051DAD6 /* UITableViewCell+HKRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 196ED6A51E0278EC0051DAD6 /* UITableViewCell+HKRound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		196ED6981E02789B0051DAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196ED69B1E02789B0051DAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196ED69D1E02789B0051DAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196ED6A41E0278EC0051DAD6 /* UITableViewCell+HKRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HKRound.h"; sourceTree = "<group>"; };
+		196ED6A51E0278EC0051DAD6 /* UITableViewCell+HKRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HKRound.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		196ED68B1E02789B0051DAD6 /* HKRoundCell */ = {
 			isa = PBXGroup;
 			children = (
+				196ED6A31E0278AE0051DAD6 /* HKRound */,
 				196ED68F1E02789B0051DAD6 /* AppDelegate.h */,
 				196ED6901E02789B0051DAD6 /* AppDelegate.m */,
 				196ED6921E02789B0051DAD6 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				196ED68D1E02789B0051DAD6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		196ED6A31E0278AE0051DAD6 /* HKRound */ = {
+			isa = PBXGroup;
+			children = (
+				196ED6A41E0278EC0051DAD6 /* UITableViewCell+HKRound.h */,
+				196ED6A51E0278EC0051DAD6 /* UITableViewCell+HKRound.m */,
+			);
+			name = HKRound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				196ED6941E02789B0051DAD6 /* ViewController.m in Sources */,
 				196ED6911E02789B0051DAD6 /* AppDelegate.m in Sources */,
 				196ED68E1E02789B0051DAD6 /* main.m in Sources */,
+				196ED6A61E0278EC0051DAD6 /* UITableViewCell+HKRound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
